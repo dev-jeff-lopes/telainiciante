@@ -1,9 +1,10 @@
 body {
     margin-left: 5%;
+    margin-right: 5%;
     max-width: 587px;
 }
 
-section{
+section {
     margin-bottom: 94px;
 }
 
@@ -32,7 +33,7 @@ h1 {
 }
 
 /******* formulário *******/
-.texto-estilo{
+.texto-estilo {
     font-weight: 400;
     font-size: 33px;
     line-height: 38px;
@@ -40,13 +41,15 @@ h1 {
 }
 
 .container-formulario {
-    width: 566px;
+    width: 98%;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
 }
 
 .container-formulario input {
     height: 45px;
+    background-color: #fff;
 }
 
 .container-formulario button {
@@ -59,6 +62,10 @@ h1 {
     cursor: pointer;
 }
 
+.espaco{
+    margin-bottom: 60px;
+}
+
 a {
     padding: 10px 50px;
     text-decoration: none;
@@ -68,9 +75,47 @@ a {
 }
 
 /*Tornando mais proporcional*/
-input[type="email"]{
+input[type="email"] {
     font-size: 25px;
 }
-input[type="password"]{
+
+input[type="password"] {
     font-size: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    form input{
+        background-color: #fff;
+    }
+
+    a {
+        padding: 5px 20px;
+        text-decoration: none;
+        background: #EFEFEF;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    form input{
+        background-color: #fff;
+    }
+
+    a {
+        font-size: 23px !important;
+        padding: 5px 10px;
+        text-decoration: none;
+        background: #EFEFEF;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+
+    header img{
+        width: 100%;
+        object-fit: contain;
+    }
 }
