@@ -1,0 +1,76 @@
+body {
+    margin-left: 5%;
+    max-width: 587px;
+}
+
+section{
+    margin-bottom: 94px;
+}
+
+header img {
+    margin-top: 55px;
+    width: 329px;
+    height: 57px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.texto-paragrafo {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+}
+
+.texto-generico {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    color: #000000;
+}
+
+/******* formulário *******/
+.texto-estilo{
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 38px;
+    margin: 20px 0;
+}
+
+.container-formulario {
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-formulario input {
+    height: 45px;
+}
+
+.container-formulario button {
+    margin-top: 40px;
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 214px;
+    height: 55px;
+    cursor: pointer;
+}
+
+a {
+    padding: 10px 50px;
+    text-decoration: none;
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+/*Tornando mais proporcional*/
+input[type="email"]{
+    font-size: 25px;
+}
+input[type="password"]{
+    font-size: 25px;
+}
